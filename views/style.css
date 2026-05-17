@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+h2, h3 { color: #333; }
+label { display: block; margin-top: 15px; font-weight: bold; color: #555; }
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-size: 16px; margin-top: 15px;
+}
+button:hover { background-color: #45a049; }
+.btn-blue { background-color: #008CBA; }
+.btn-blue:hover { background-color: #007B9E; }
+.btn-red { background-color: #f44336; padding: 6px 12px; font-size: 14px;}
+.btn-red:hover { background-color: #da190b; }
+nav { margin-bottom: 20px; background: #f8f9fa; padding: 10px; border-radius: 4px; }
+nav a { margin-right: 15px; text-decoration: none; color: #008CBA; font-weight: bold; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+table, th, td { border: 1px solid #ddd; }
+th, td { padding: 12px; text-align: left; }
+th { background-color: #f2f2f2; }
+.klaida { color: #f44336; font-weight: bold; }
+.sekme { color: #4CAF50; font-weight: bold; }
